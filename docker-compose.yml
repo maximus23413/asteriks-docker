@@ -1,0 +1,5 @@
+services:
+  asterisk:
+    build: .
+    volumes:
+      - .:/home
